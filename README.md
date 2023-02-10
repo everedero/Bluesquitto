@@ -4,14 +4,21 @@ Bluetooth BLE to MQTT server gateway with an Android application.
 
 # Beacon MQTT Android application
 
-I forked Turbolab’s [Beacon MQTT](https://github.com/everedero/android-beacon-mqtt/tree/eve/test_broodminder) application.
-It uses:
+I forked Turbolab’s [Beacon MQTT](https://github.com/turbo-lab/android-beacon-mqtt) application.
+
+This app uses:
 
 * org.altbeacon.beacon for Bluetooth BLE beacon
 
 * org.eclipse.paho.client.mqttv3 for MQTT transmission
 
 Originally this app is designed to work with iBeacons and detect beacon distance, but it can be modified to be an IoT BLE advertising to MQTT gateway.
+
+## Download
+
+* Source code and Android Studio Project for this fork are [here](https://github.com/everedero/android-beacon-mqtt/tree/eve/test_broodminder)
+
+* The compiled app is available [here](https://drive.google.com/file/d/1RpBschiGgoRq5yFKC-GMwKVMn0WmxUPM/view?usp=sharing)
 
 ## Example manufacturer payload
 
